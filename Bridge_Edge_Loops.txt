@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-01-25T05:01:34+01:00
+
+====== Bridge Edge Loops ======
+
+Mit den Bridge Edge Loops können "Durchbrüche" durch Objekte geschaffen werden.
+
+Markiere die gewünschten Flächen auf der einen...
+
+{{./screenshot_2021-01-25-050910.png}}
+
+...sowie auf der anderen Seite.
+
+{{./screenshot_2021-01-25-051015.png}}
+
+Anschließend **Ctrl + E** und **Bridge Edge Loops** ausführen. 
+
+{{./screenshot_2021-01-25-051036.png}}
