@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-05-04T16:06:44+02:00
+
+====== Data-Blocks ======
+
+===== Unbenutzte Data-Blocks entfernen =====
+
+Im Outliner unter **Orphan Data** auswählen und mit **RIGHT MOUSE -> Delete** die entsprechenden Data-Blöcke löschen. 
+Alternativ können mit **Purge All** alle angezeigten Materialien entfernen.
+Anschließend mit **CTRL+S** die Datei speichern und mit **CTRL+SHIFT+O **neu laden.
