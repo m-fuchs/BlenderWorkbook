@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-05-06T10:08:33+02:00
+
+====== Objekt transformieren ======
+
+===== Objekt spiegeln =====
+Im Gegensatz zum Mirror-Modifier wird hierbei tatsächlich das Objekt einmal gespiegelt und keine gespiegelte Variante an das Objekt angefügt.
+Objekt markieren, dann **CTRL+M** drücken und anschließend **X**, **Y** oder **Z** für die Achse an der gespiegelt werden soll.

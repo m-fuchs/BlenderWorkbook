@@ -1,0 +1,61 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-05-06T10:11:16+02:00
+
+====== PBR Texturen nutzen ======
+
+PBR-Texturen werden meist in Former mehrere Bilddateien ausgeliefert, die als Input für verschiedene Eingänge einer **Principled BSDF** genutzt werden können.
+
+
+===== Beispiel einer PBR-Textur =====
+{{./screenshot_2021-05-06-101824.png}}
+In diesem Fall sind folgende Teile einer Textur enthalten:
+
+* **Base Color:** redbricks2b-albedo.png
+* **Roughness:** redbricks2b-rough.png
+* **Height:** redbricks2b-height4b.png
+* **Normal:** redbricks2b-normal.png
+* **Metallic:** redbricks2b-metalness.png
+* **Ambient Occlusion:** redbricks2b-ao.png
+
+
+===== Maps mit einer Principled BSDF verbinden =====
+
+=== Base Color ===
+Die grundlegende Farbe der Oberfläche. Wird als **Image Texture** direkt mit dem **Base Color**-Input der **Principled BSDF**-Node verbunden.
+
+=== Roughness ===
+Definiert wie rau eine Oberfläche ist. Die **Image Texture** muss auf **Non-Color-Data** geschaltet werden und dann mit dem **Roughness**-Input verbunden werden.
+
+=== Height ===
+Die Height-Map kann verwendet werden, um detaillierte Schatten und Glanzlichter auf einem Material zu erzeugen oder um die Geometrie eines Objekts tatsächlich zu verschieben.
+Dazu wird eine **Bump**-Node erstellt und diese mit dem **Normal**-Input der **Principled BSDF**-Node verbunden. Die **Image Texture** (im **Non-Color-Data**-Mode) kommt wiederum an den
+**Height**-Eingang der **Bump**-Node.
+
+(//Info vermutlich für spätere Versionen als 2.79: "If you want to use it for actually displacing the geometry of your object, it should be plugged into the Height input of a Displacement node, //
+//which then should be plugged into the Displacement input of the Material Output node. Make sure the image file’s color space is set to Non-Color Data here as well. Using the Scale slider //
+//of the Bump node, you can control how much the geometry should be displaced.")//
+
+=== Normal ===
+Definiert, in welche Richtung ein Teil einer Oberfläche gerichtet ist, was zur Erzeugung von detaillierten Schatten und Glanzlichtern verwendet wird.
+Hier verbinden wir die **Image Texture** (**Non-Color-Data**) mit einer **Normal Map** und diese mit dem **Normal**-Input des **Principled BSDF**. 
+Wenn wie oben eine **Height**-Map mit **Bump**-Node verwendet wird, benutzen wir stattdessen den **Normal**-Eingang der **Bump**-Node.
+
+=== Metallic ===
+Die **Metallic**-Map definiert, welche Teile eines Materials metallisch sind und welche nicht. Sie sollte in den **Metallic**-Eingang des **Principled BSDF** gesteckt werden. 
+Diese Map ergibt nur Sinn für Materialien die sowohl metallisch als auch nicht-metallisch sind. Ist das ganze Material nicht-metallisch setzt man den Wert des Inputs direkt 
+auf 0, ist alles metallisch kann man direkt 1 eingeben.
+
+=== Ambient Occlusion ===
+Die **Ambient Occlusion**-Map kann verwendet werden, um weiche Schatten in den Unebenheiten einer Oberfläche vorzutäuschen. Sie wird in Cycles nur selten benötigt, kann 
+aber verwendet werden um die winzigen Schatten in der Oberfläche abzudunkeln.
+Die **Image Texture** (**Color**-Mode) wird per **MixRGB**-Node (**Multiply**) mit der **Image Texture** der Base Color multipliziert. Das Ergebnis kommt dann in den **Base Color**-Input 
+der **Principled BSDF**. Die Stärke wird dann über den Schieberegler gesteuert.
+
+===== Beispiel-Setup =====
+
+Das Beispiel nutzt die oben aufgeführten Maps. Auf den Einsatz von **redbricks2b-metalness.png** wurde verzichtet, da diese Map komplett schwarz ist (entspricht einem 
+Input-Wert von 0). Die **Ambient Occlusion**-Map ist ebenfalls nicht eingebunden, hier war beim Rendern kein Vorteil zu erkennen.
+
+{{./screenshot_2021-05-06-101724.png}}
+

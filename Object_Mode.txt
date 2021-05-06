@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-05-06T10:08:15+02:00
+
+====== Object Mode ======
+
+
