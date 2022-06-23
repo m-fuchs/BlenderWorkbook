@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-06-23T08:32:17+02:00
+
+====== Mauskommandos ======
+
+* **Left-Click**
+	* Objekt selektieren
+* **Scroll-Rad**
+	* Zoom
+* **Scroll-Rad gedrückt**
+	* mit der Maus um den Bildschirmmittelpunkt drehen
+* **Scroll-Rad gedrückt + Shift**
+	* mit der Maus den Bildschirmmittelpunkt verschieben
+

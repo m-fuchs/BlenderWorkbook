@@ -4,4 +4,12 @@ Creation-Date: 2021-01-24T02:33:06+01:00
 
 ====== Tastaturkommandos ======
 
+===== Viewport =====
+
+* **T**
+	* Tool-Panel öffnen
+* **N**
+	* Properties-Panel öffnen
+* **NUMPAD 5**
+	* Wechsel von Normal- zur Orthogonalansicht
 
