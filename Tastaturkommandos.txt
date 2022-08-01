@@ -5,11 +5,22 @@ Creation-Date: 2021-01-24T02:33:06+01:00
 ====== Tastaturkommandos ======
 
 ===== Viewport =====
+| Kommando     | Beschreibung                             <|
+|:-------------|:------------------------------------------|
+| **T**        | Tool-Panel öffnen                         |
+| **N**        | Properties-Panel öffnen                   |
+| **NUMPAD 5** | Wechsel von Normal- zur Orthogonalansicht |
+| **NUMPAD 1** | Front-Ansicht                             |
+| **NUMPAD 7** | Top-Ansicht                               |
+| **NUMPAD 3** | Seitenansicht Rechts                      |
+| **NUMPAD 9** | Ansicht um 180° drehen                    |
+| **NUMPAD 0** | Kamera-Ansicht                            |
 
-* **T**
-	* Tool-Panel öffnen
-* **N**
-	* Properties-Panel öffnen
-* **NUMPAD 5**
-	* Wechsel von Normal- zur Orthogonalansicht
 
+===== Object Mode =====
+| Kommando | Beschreibung                                                                                                                                          <|
+|:---------|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **G**    | Objekt bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                      |
+| **R**    | Objekt rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
+| **S**    | Objekt vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
+					

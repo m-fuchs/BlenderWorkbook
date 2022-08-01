@@ -4,12 +4,12 @@ Creation-Date: 2022-06-23T08:32:17+02:00
 
 ====== Mauskommandos ======
 
-* **Left-Click**
-	* Objekt selektieren
-* **Scroll-Rad**
-	* Zoom
-* **Scroll-Rad gedrückt**
-	* mit der Maus um den Bildschirmmittelpunkt drehen
-* **Scroll-Rad gedrückt + Shift**
-	* mit der Maus den Bildschirmmittelpunkt verschieben
-
+===== Object Mode =====
+| Kommando                        | Beschreibung                                                                                         |
+|:--------------------------------|:-----------------------------------------------------------------------------------------------------|
+| **Left-Click**                  | Objekt selektieren                                                                                   |
+| **Scroll-Rad**                  | Zoom                                                                                                 |
+| **Scroll-Rad gedrückt**         | mit der Maus um den Bildschirmmittelpunkt drehen                                                     |
+| **Shift + Right-Click**         | 3D-Cursor an geklickten Punkt verschieben                                                            |
+| **Shift + Scroll-Rad gedrückt** | mit der Maus den Bildschirmmittelpunkt verschieben                                                   |
+| **Left-Click gedrückt**         | mit der Maus eine Selektions-Box aufziehen, durch die mehrere Objekte gleichzeitig ausgewählt werden |
