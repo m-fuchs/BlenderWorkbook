@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-08-02T18:36:53+02:00
+
+====== Kamera ======
+
+===== Kamera bewegen =====
+* **Properties Panel** => **View** => **View Lock** => **Camera to View** aktivieren
+	* beim Verändern die Viewansicht wird die Kamera automatisch mitbewegt
+	* Nicht vergessen: den Haken danach wieder deaktivieren!
