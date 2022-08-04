@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-08-04T14:30:07+02:00
+
+====== Eevee ======
+Neue Realtime-Render-Engine ab Version 2.8. Nicht fotorealistisch, aber schneller als [[:Cycles|Cycles]].
+
+===== Ambient Occlusion =====
+Verbessert die Darstellung der Schatten im gerenderten Bild. Sie sind dann nicht physikalisch korrekt, sehen aber deutlich besser aus.
+
+{{./eevee_ohne_ao.png?href=.%2Feevee_ohne_ao.png&width=400}}  {{./eevee_mit_ao.png?href=.%2Feevee_mit_ao.png&width=400}}
+Links ohne und rechts mit Ambient Occlusion (Distance auf 1,25 m gestellt)
