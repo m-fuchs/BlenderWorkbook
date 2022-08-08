@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-08-08T12:50:45+02:00
+
+====== Webseiten ======
+
+===== Ressourcen =====
+(Materialien, Texturen, Bilder, ...)
+
+| Name           | URL                    | Beschreibung                                |
+|:---------------|:-----------------------|:--------------------------------------------|
+| **Poly Haven** | https://polyhaven.com/ | Sammlung von HDRI, Texturen und 3D-Modellen |
+|                |                        |                                             |
+|                |                        |                                             |
+		

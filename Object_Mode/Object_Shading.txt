@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-08-08T12:30:30+02:00
+
+====== Object Shading ======
+
+Mit Hilfe des Object-Shading, kann das Aussehen der Flächen-Übergänge eines Objektes angepasst werden.
+
+===== Flat =====
+Standard-Einstellung ist **Flat**. Hierbei werden die einzelnen Flächen ohne Übergang zueinander dargestellt.
+(Objekt markieren -> **Rechte Maustaste** -> **Shade Flat**)
+
+{{./shading_flat.png?href=.%2Fshading_flat.png&width=400}} 
+Zylinder mit 32 Seitenflächen und Shading=Flat.
+
+
+===== Smooth =====
+Hierbei werden alle Übergänge weich dargestellt, so dass runde Objekte eher rund wirken.
+(Objekt markieren -> **Rechte Maustaste** -> **Shade Flat**)
+
+{{./shading_smooth.png?href=.%2Fshading_smooth.png&width=400}}
+Zylinder mit 32 Seitenflächen und Shading=Flat.
+
+**Achtung: **Das betrifft dann **alle** Kanten! Kanten - wie die der Kopfflächen eines Zylinders - die weiterhin echte Kanten sein sollten, 
+werden auch abgerundet. Dies führt zu unschönen Ergebnissen.
+Beheben kann man dieses Problem mit...
+
+
+===== Auto-Smooth =====
+Hierbei wird zusätzlich zur Smooth-Einstellung noch eine weitere getätigt: 
+**Object Data Properties** -> **Normals** -> **Auto Smooth** aktivieren. Das folgende Feld gibt die Gradzahl an, bis zu der die Kantenübergänge
+weich dargestellt werden sollen. Alle Kantenwinkel zwischen zwei Flächen die größer sind, werden als scharfe Kante dargestellt.
+
+{{./shading_autosmooth_30.png?href=.%2Fshading_autosmooth_30.png&width=400}}
+Zylinder mit 32 Seitenflächen und **Shading**=**Smooth**, **Auto Smooth** ist an und auf 30° eingestellt.
+

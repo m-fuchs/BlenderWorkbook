@@ -4,6 +4,8 @@ Creation-Date: 2021-01-24T02:33:06+01:00
 
 ====== Tastaturkommandos ======
 
+Nützliche Tastaturkommandos.
+
 ===== Viewport =====
 | Kommando     | Beschreibung                             <|
 |:-------------|:------------------------------------------|
@@ -24,3 +26,9 @@ Creation-Date: 2021-01-24T02:33:06+01:00
 | **R**    | Objekt rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
 | **S**    | Objekt vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
 					
+
+===== Node Editor =====
+| Kommando        | Beschreibung                                                       <|
+|:----------------|:--------------------------------------------------------------------|
+| **HOME / Pos1** | Zoomt und verschiebt die Ansicht so, dass alle Nodes sichtbar sind. |
+	
