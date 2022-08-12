@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-08-12T10:35:56+02:00
+
+====== Loop Cut ======
+
+Der Loop Cut "schneidet" ein Objekt in zwei Hälfte, d.h. es erzeugt mittig eine Reihe neuer Edges.
+Mit **Ctrl + R** wird das Werkzeug aktiviert:
+
+{{./loopcut01.png?href=.%2Floopcut01.png&width=400}}
+
+Anschließend kann man mit verschieben der Maus die Richtung des Schnittes verändern. Ein Linksklick bestätigt die gewünschte Richtung:
+
+{{./loopcut02.png?href=.%2Floopcut02.png&width=400}}
+
+Nun kann der Schnitt auf innerhalb der gewünschten Richtung verschoben werden:
+
+{{./loopcut03.png?href=.%2Floopcut03.png&width=400}}
+
+Ein weitere Linksklick bestätigt die Auswahl und der Schnitt wird ausgeführt:
+
+{{./loopcut04.png?href=.%2Floopcut04.png&width=400}}
+
+
+===== Even / Flipped =====
+
+Wenn das Objekt nicht gleichmäßig geformt ist, dann ist auch der Loop Cut nicht gleichmäßig:
+
+{{./loopcut05.png?href=.%2Floopcut05.png&width=400}}
+
+Mit der Option **Even** im **Adjust Last Operation Window** kann dies verändert werden:
+
+{{./loopcut06.png?href=.%2Floopcut06.png&width=400}}
+
+Zusätzlich kann mit der Option **Flipped** die gegenüberliegende Seite des Objekts als Bezugsform genutzt werden:
+
+{{./loopcut07.png?href=.%2Floopcut07.png&width=400}}
