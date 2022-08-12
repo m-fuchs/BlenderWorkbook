@@ -4,7 +4,7 @@ Creation-Date: 2021-01-24T02:33:06+01:00
 
 ====== Tastaturkommandos ======
 
-Nützliche Tastaturkommandos.
+	Nützliche Tastaturkommandos.
 
 ===== Viewport =====
 | Kommando     | Beschreibung                             <|
@@ -25,7 +25,20 @@ Nützliche Tastaturkommandos.
 | **G**    | Objekt bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                      |
 | **R**    | Objekt rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
 | **S**    | Objekt vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
-					
+
+
+===== Edit Mode =====
+| Kommando      | Beschreibung                                                                                                                                                                         <|
+|:--------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **G**         | Markierte Vertices, Edges oder Faces bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                       |
+| **R**         | Markierte Vertices, Edges oder Faces  rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
+| **S**         | Markierte Vertices, Edges oder Faces  vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
+| **1**         | Selektionsmodus: Vertices                                                                                                                                                             |
+| **2**         | Selektionsmodus: Edges                                                                                                                                                                |
+| **3**         | Selektionsmodus: Faces                                                                                                                                                                |
+| **E**         | Markierte Vertices, Edges oder Faces extrudieren                                                                                                                                      |
+| **CTRL + R*** | Erzeuge einen Loop-Cut                                                                                                                                                                |
+
 
 ===== Node Editor =====
 | Kommando        | Beschreibung                                                       <|
