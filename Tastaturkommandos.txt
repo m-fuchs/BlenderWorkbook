@@ -7,40 +7,46 @@ Creation-Date: 2021-01-24T02:33:06+01:00
 	Nützliche Tastaturkommandos.
 
 ===== Viewport =====
-| Kommando     | Beschreibung                             <|
-|:-------------|:------------------------------------------|
-| **T**        | Tool-Panel öffnen                         |
-| **N**        | Properties-Panel öffnen                   |
-| **NUMPAD 5** | Wechsel von Normal- zur Orthogonalansicht |
-| **NUMPAD 1** | Front-Ansicht                             |
-| **NUMPAD 7** | Top-Ansicht                               |
-| **NUMPAD 3** | Seitenansicht Rechts                      |
-| **NUMPAD 9** | Ansicht um 180° drehen                    |
-| **NUMPAD 0** | Kamera-Ansicht                            |
+| Kommando     | Beschreibung                                                                                        <|
+|:-------------|:-----------------------------------------------------------------------------------------------------|
+| **T**        | Tool-Panel öffnen                                                                                    |
+| **N**        | Properties-Panel öffnen                                                                              |
+| **NUMPAD 5** | Wechsel von Normal- zur Orthogonalansicht                                                            |
+| **NUMPAD 1** | Front-Ansicht                                                                                        |
+| **NUMPAD 7** | Top-Ansicht                                                                                          |
+| **NUMPAD 3** | Seitenansicht Rechts                                                                                 |
+| **NUMPAD 9** | Ansicht um 180° drehen                                                                               |
+| **NUMPAD 0** | Kamera-Ansicht                                                                                       |
+| **NUMPAD .** | Zoom bis das / die  markierte(n) Objekt(e) / Vertices / Edges / Faces den Viewport flächig ausfüllen |
 
 
 ===== Object Mode =====
-| Kommando | Beschreibung                                                                                                                                          <|
-|:---------|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **G**    | Objekt bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                      |
-| **R**    | Objekt rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
-| **S**    | Objekt vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
+| Kommando    | Beschreibung                                                                                                                                             <|
+|:------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **G**       | Objekt(e) bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                      |
+| **R**       | Objekt(e) rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
+| **S**       | Objekt(e) vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
+| **M**       | Objekt(e) in eine Collection verschieben                                                                                                                  |
+| **A**       | Alle Objekte markieren.                                                                                                                                   |
+| **ALT + A** | Alle Markierungen entfernen.                                                                                                                              |
 
 
 ===== Edit Mode =====
-| Kommando      | Beschreibung                                                                                                                                                                         <|
-|:--------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **G**         | Markierte Vertices, Edges oder Faces bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                       |
-| **R**         | Markierte Vertices, Edges oder Faces  rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
-| **S**         | Markierte Vertices, Edges oder Faces  vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
-| **1**         | Selektionsmodus: Vertices                                                                                                                                                             |
-| **2**         | Selektionsmodus: Edges                                                                                                                                                                |
-| **3**         | Selektionsmodus: Faces                                                                                                                                                                |
-| **E**         | Markierte Vertices, Edges oder Faces extrudieren                                                                                                                                      |
-| **CTRL + R*** | Erzeuge einen Loop-Cut                                                                                                                                                                |
+| Kommando     | Beschreibung                                                                                                                                                                         <|
+|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **G**        | Markierte Vertices, Edges oder Faces bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                       |
+| **R**        | Markierte Vertices, Edges oder Faces  rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
+| **S**        | Markierte Vertices, Edges oder Faces  vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
+| **1**        | Selektionsmodus: Vertices                                                                                                                                                             |
+| **2**        | Selektionsmodus: Edges                                                                                                                                                                |
+| **3**        | Selektionsmodus: Faces                                                                                                                                                                |
+| **E**        | Markierte Vertices, Edges oder Faces extrudieren                                                                                                                                      |
+| **CTRL + R** | Erzeuge einen Loop-Cut                                                                                                                                                                |
+| **A**        | Alle Objekte markieren.                                                                                                                                                               |
+| **ALT + A**  | Alle Markierungen entfernen.                                                                                                                                                          |
 
 
-===== Node Editor =====
+===== Node Edit	or =====
 | Kommando        | Beschreibung                                                       <|
 |:----------------|:--------------------------------------------------------------------|
 | **HOME / Pos1** | Zoomt und verschiebt die Ansicht so, dass alle Nodes sichtbar sind. |

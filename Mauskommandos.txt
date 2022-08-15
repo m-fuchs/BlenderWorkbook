@@ -15,3 +15,9 @@ Nützliche Mauskommandos.
 | **Shift + Right-Click**         | 3D-Cursor an geklickten Punkt verschieben                                                            |
 | **Shift + Scroll-Rad gedrückt** | mit der Maus den Bildschirmmittelpunkt verschieben                                                   |
 | **Left-Click gedrückt**         | mit der Maus eine Selektions-Box aufziehen, durch die mehrere Objekte gleichzeitig ausgewählt werden |
+
+
+===== Edit Mode =====
+| Kommando           | Beschreibung                                                                                                                   |
+|:-------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| **ALT+Left-Click** | ...auf eine Edge selektiert alle Faces die sich an dieser Edge anschließen und einen darüberhinaus einen Loop zwischen beiden. |
