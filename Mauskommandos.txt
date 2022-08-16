@@ -21,3 +21,10 @@ Nützliche Mauskommandos.
 | Kommando           | Beschreibung                                                                                                                   |
 |:-------------------|:-------------------------------------------------------------------------------------------------------------------------------|
 | **ALT+Left-Click** | ...auf eine Edge selektiert alle Faces die sich an dieser Edge anschließen und einen darüberhinaus einen Loop zwischen beiden. |
+
+
+===== Sculpt Mode =====
+| Kommando | Beschreibung                                                                                      <|
+|:---------|:---------------------------------------------------------------------------------------------------|
+| **F**    | Pinselgröße ändern. Gedrückt halten und durch Verschieben der Maus wird die Pinselgröße angepasst. |
+| **CTRL** | Dreht die Arbeitsweise des Pinsels um.                                                             |

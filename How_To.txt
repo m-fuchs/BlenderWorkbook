@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-08-16T19:20:35+02:00
+
+====== How To ======
+
+===== Anzeigen der Topologie-Statistik =====
+
+**[[:Viewport|Viewport-Overlays]]** -> **Statistics** aktivieren
+

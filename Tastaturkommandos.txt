@@ -32,22 +32,33 @@ Creation-Date: 2021-01-24T02:33:06+01:00
 
 
 ===== Edit Mode =====
-| Kommando     | Beschreibung                                                                                                                                                                         <|
-|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **G**        | Markierte Vertices, Edges oder Faces bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                       |
-| **R**        | Markierte Vertices, Edges oder Faces  rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
-| **S**        | Markierte Vertices, Edges oder Faces  vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
-| **1**        | Selektionsmodus: Vertices                                                                                                                                                             |
-| **2**        | Selektionsmodus: Edges                                                                                                                                                                |
-| **3**        | Selektionsmodus: Faces                                                                                                                                                                |
-| **E**        | Markierte Vertices, Edges oder Faces extrudieren                                                                                                                                      |
-| **CTRL + R** | Erzeuge einen Loop-Cut                                                                                                                                                                |
-| **A**        | Alle Objekte markieren.                                                                                                                                                               |
-| **ALT + A**  | Alle Markierungen entfernen.                                                                                                                                                          |
+| Kommando      | Beschreibung                                                                                                                                                                         <|
+|:--------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **G**         | Markierte Vertices, Edges oder Faces bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                       |
+| **R**         | Markierte Vertices, Edges oder Faces  rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
+| **S**         | Markierte Vertices, Edges oder Faces  vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
+| **1**         | Selektionsmodus: Vertices                                                                                                                                                             |
+| **2**         | Selektionsmodus: Edges                                                                                                                                                                |
+| **3**         | Selektionsmodus: Faces                                                                                                                                                                |
+| **E**         | Markierte Vertices, Edges oder Faces extrudieren                                                                                                                                      |
+| **CTRL + R**  | Erzeuge einen Loop-Cut                                                                                                                                                                |
+| **A**         | Alle Objekte markieren.                                                                                                                                                               |
+| **ALT + A**   | Alle Markierungen entfernen.                                                                                                                                                          |
+| **O**         | Proportional Editing aktivieren / deaktivieren.                                                                                                                                       |
+| **Shift + O** | Kontextmenü für Proportional Editing anzeigen.                                                                                                                                        |
 
 
-===== Node Edit	or =====
+===== Node Editor =====
 | Kommando        | Beschreibung                                                       <|
 |:----------------|:--------------------------------------------------------------------|
 | **HOME / Pos1** | Zoomt und verschiebt die Ansicht so, dass alle Nodes sichtbar sind. |
-	
+
+
+===== Sculpt Mode =====
+| Kommando    | Beschreibung                              <|
+|:------------|:-------------------------------------------|
+| **CTRL +D** | Aktiviert / Deaktiviert den DynTopo-Modus. |
+| **X**       | **Draw**-Pinsel                            |
+| **G**       | **Grab**-Pinsel                            |
+
+

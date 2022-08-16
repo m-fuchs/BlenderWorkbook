@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-08-16T18:52:43+02:00
+
+====== Sculpt Mode ======
+
+===== DynTopo =====
+Wenn der **DynTopo**-Modus aktiviert ist (**CTRL + D**) wird beim Zeichnen im **Sculpt-Mode** automatisch mehr Topologie zum
+bearbeiteten Objekt hinzugefügt. Die Aktivierung diese Modus ist nicht persistent. Nach jedem neuen Wechsel in den 
+**Sculpt-Mode** muss er wieder aktiviert werden.
+
+
