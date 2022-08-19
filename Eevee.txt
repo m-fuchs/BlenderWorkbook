@@ -7,6 +7,16 @@ Neue Realtime-Render-Engine ab Version 2.8. Nicht fotorealistisch, aber schnelle
 
 ===== Ambient Occlusion =====
 Verbessert die Darstellung der Schatten im gerenderten Bild. Sie sind dann nicht physikalisch korrekt, sehen aber deutlich besser aus.
-
 {{./eevee_ohne_ao.png?href=.%2Feevee_ohne_ao.png&width=400}}  {{./eevee_mit_ao.png?href=.%2Feevee_mit_ao.png&width=400}}
 Links ohne und rechts mit Ambient Occlusion (Distance auf 1,25 m gestellt)
+
+===== Bloom =====
+Immitiert Linsenartefakte echter Kameras und sorgt damit speziell bei Emmission-Materialien für eine realistischer Ansicht.
+
+{{./eevee_without_bloom.png}}  {{./eevee_with_bloom.png}}
+Links ohne und rechts mit Bloom. Der Unterschied wird besonders beim Licht des Leuchturms deutlich.
+
+===== Screen Space Reflections =====
+Erzeugt Spiegelungen auf entsprechenden Materialien.
+{{./eevee_without_screen_space_reflections.png}}  {{./eevee_with_screen_space_reflections.png}}
+Links ohne und rechts mit Screen Space Reflections. Die Plane (Roughness=0, Specular = 0.2) wirkt hier wie eine Wasseroberfläche und spiegelt das Bild.
