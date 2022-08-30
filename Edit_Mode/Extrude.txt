@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-08-30T14:56:35+02:00
+
+====== Extrude ======
+
+===== Extrude along Normals =====
+
+Beim Extrudieren und anschließendem Skalieren von mehreren Flächen eines Objektes, kann es zu unschönen Verzerrungen
+kommen - wenn die Flächen in unterschiedliche Richtungen zeigen. Eine Beschränkung der Skalierung auf eine oder zwei
+Achsen ist damit nicht mehr möglich.
+{{./extrude_and_scale.png?href=.%2Fextrude_and_scale.png&width=400}}
+
+Abhilfe schafft ein Extrudieren entlang der Normalen der Flächen, zu finden in der **Toolbar (T)** unter **Extrude Region**:
+{{./extrude_command.png}}
+
+Das Ergebnis sind dann Flächen die ihre Ausdehnung orthogonal zur Normalen behalten:
+
+{{./extrude_along_normals.png?href=.%2Fextrude_along_normals.png&width=400}}

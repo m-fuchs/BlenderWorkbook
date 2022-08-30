@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-08-30T15:14:27+02:00
+
+====== Bevel ======
+
+===== Bevel eines einzigen Vertex =====
+
+Auch Vertices können per **Bevel (Ctrl + B)** abgeschrägt werden, man muss im Bevel-Modus nur **V** drücken.
+Auch in diesem Modus können per Scrollrad die Level bestimmt werden, mit denen abgeschrägt wird.
+
+{{./bevel_vertex_1segment.png.png}}  {{./bevel_vertex_16segments.png}}
+Bevel eines Vertex mit Level 1 (links) und Level 16 (rechts).
