@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-09-02T04:14:33+02:00
+
+====== Delete & Dissolve ======
+
+Einzelne Vertices, Edges und Faces kann man löschen. Dazu einfach **Del** drücken und den jeweiligen Typ auswählen.
+{{./dissolve1.png?height=400&href=.%2Fdissolve1.png}}
+
+Allerdings löscht das auch darauf beruhenden Elemente...
+{{./dissolve2.png?height=400&href=.%2Fdissolve2.png}}
+...hier fehlen zum Beispiel drei Faces.
+
+Alternativ kann man unnötige Elemente per Dissolve entfernen, zu finden im gleichen Menü. Und schon werden aus 
+drei Flächen eine:
+
+{{./dissolve3.png?height=400&href=.%2Fdissolve3.png}}
