@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-09-13T15:04:27+02:00
+
+====== Skalieren ======
+
+===== Skalieren entlang der Normalen =====
+
+In manchen Fällen ist ein einfachs Skalieren von Flächen nicht zielführend, da keine der Achsen eine sinnvolle Richtung 
+ergibt. Beispielsweise um - wie im folgenden Bild - die Innenseite des Dinomauls.
+
+{{./scale.png?href=.%2Fscale.png&width=400}}
+
+Man könnten natürlich auf die Normalen umschalten und entlang der entsprechenden Achse skalieren - einfacher wird
+es mit der Tastenkombination **ALT+S** die eine Skalierung entlang der Normalen durchführt.
+
+{{./scale_along_normals.png?href=.%2Fscale_along_normals.png&width=400}}
