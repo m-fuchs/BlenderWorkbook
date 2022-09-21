@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-09-21T10:34:30+02:00
+
+====== Node Wrangler ======
+
+Sehr hilfreiches Add-On für Nodes-Bearbeitung.
+
+===== Automatische Textur =====
+Material Node selektieren -> **Ctrl + T** drücken und es automatisch eine neue **Image-Texture**-Node sowie dazugehörige 
+**Mapping**- und **Texture-Coordinate**-Node hinzugefügt und mit der **Base Color** verbunden.
+Bei jedem weiteren Drücken von **Ctrl + T** wird dieses Node-Setup an weitere Bildeingänge angefügt - sofern diese noch 
+nicht belegt sind.
+
+===== Fast View =====
+Auf eine beliebe Node mit gedrücktem **Shift + Ctrl** klicken -> nun wird der oberste Ausgang der Node direkt mit dem
+**Material Output** verbunden. Erneutes klicken in obiger Kombination ändert den Ausgang von oben nach unten.
