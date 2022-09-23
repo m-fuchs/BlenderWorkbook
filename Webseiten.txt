@@ -7,9 +7,9 @@ Creation-Date: 2022-08-08T12:50:45+02:00
 ===== Ressourcen =====
 (Materialien, Texturen, Bilder, ...)
 
-| Name             | URL                       | Beschreibung                                |
-|:-----------------|:--------------------------|:--------------------------------------------|
-| **Poly Haven**   | https://polyhaven.com/    | Sammlung von HDRI, Texturen und 3D-Modellen |
-| **textures.com** | https://www.textures.com/ |                                             |
-|                  |                           |                                             |
+| Name             | URL                       | Beschreibung                                                                  |
+|:-----------------|:--------------------------|:------------------------------------------------------------------------------|
+| **Poly Haven**   | https://polyhaven.com/    | Sammlung von HDRI, Texturen und 3D-Modellen                                   |
+| **textures.com** | https://www.textures.com/ | Umfangreiche Texturen-Sammlung, erfordert Account, 15 Credits/Tag sind gratis |
+|                  |                           |                                                                               |
 		
