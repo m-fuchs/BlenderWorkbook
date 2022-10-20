@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-10-20T09:59:35+02:00
+
+====== Project from View ======
+
+Problem: bei unregelmäßigen Körpern und einer Textur die auf einem seitlichen Foto basiert, ist UV-Mapping schwierig. Es
+kommt zu Verzerrungen, da die Elementen auf dem Foto nicht den einzelnen Flächen der Map entsprechen.
+
+{{./project_from_view_1.png?href=.%2Fproject_from_view_1.png&width=500}}  {{./project_from_view_2.png?href=.%2Fproject_from_view_2.png&width=500}}
+
+In diesem Fall lohnt sich eine UV-Projekt aus dem Seitenview durchzuführen. Mit **Numpad 5** in die orthogonal Seitenansicht wechseln. Und im UV-Mapping-Menü (**U**) den
+Punkt "Project from View" wählen.
+
+{{./project_from_view_3.png?href=.%2Fproject_from_view_3.png&width=500}}
+
+Die erzeugte UV-Map passt dann deutlich besser zur Textur.
+
+{{./project_from_view_4.png?href=.%2Fproject_from_view_4.png&width=500}}
