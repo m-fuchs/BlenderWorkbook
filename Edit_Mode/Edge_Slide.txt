@@ -13,5 +13,5 @@ Beim Verschieben einer Edge (**G**) wird die Textur gestaucht.
 Benutzt man hingegen den Edge-Slide (**G G**) dann bleibt die Proportion der Textur erhalten.
 {{./slide.png?href=.%2Fslide.png&width=400}}
 
-Das funktioniert auch wenn die Textur wachsen würde. Hierfür muss nach dem Aktivieren des SLide (**G G**) noch das Clmaping deaktiviert werden (**C**).
+Das funktioniert auch wenn die Textur wachsen würde. Hierfür muss nach dem Aktivieren des SLide (**G G**) noch das Clamping deaktiviert werden (**C**).
 {{./slide_with_clamp.png?href=.%2Fslide_with_clamp.png&width=400}}
