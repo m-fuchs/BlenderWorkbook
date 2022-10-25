@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-10-26T00:13:39+02:00
+
+====== Output Properties ======
+
+===== Output =====
+
+==== Encoding ====
+**Container** auf **MPEG-4** setzen um höhere Kompartibilität mit älteren Playern zu erhalten
+
+==== Video ====
+**Output Quality** auf **Perceptually Lossless** setzen. **Encoding Speed** sollte immer **Slowest** sein. Die Qualität steigt dadurch 
+an und die Zeitverzögerung ist im Vergleich zum rendern vernachlässigbar.
+
+==== Audio ====
+ACHTUNG: Standardmäßg ist der **Audio Codec** auf **No Audio** gestellt. Damit gehen die sämtliche Sounds verloren. Hier 
+sollte **MP3** gewählt werden.
