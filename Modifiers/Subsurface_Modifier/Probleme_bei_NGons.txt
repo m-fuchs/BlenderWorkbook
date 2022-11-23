@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-11-23T21:59:43+01:00
+
+====== Probleme bei NGons ======
+
+Der **Subsurface Modifier (SSM)** arbeitet am besten mit **Quads** - **NGons** können zu Problemen führen.
+
+Gegeben sei ein Cylinder mit 32 Seiten. Beim Hinzufügen eines **SSM** Level 3 zeigen sich unschöne Ergebnisse:
+
+{{./submod_ngon01.png?href=.%2Fsubmod_ngon01.png&width=400}}  {{./submod_ngon02.png?href=.%2Fsubmod_ngon02.png&width=400}}
+
+Abhilfe kann man in diesem Fall schaffen, wenn man an den Kanten **Quads** platziert. Dazu werden die beiden **NGon**-Seiten per **Inset** mit
+neuen Faces umgeben.
+
+{{./submod_ngon03.png?href=.%2Fsubmod_ngon03.png&width=400}}  {{./submod_ngon04.png?href=.%2Fsubmod_ngon04.png&width=400}}
+
+Das Ergebnis sieht nun  deutlich besser aus:
+
+{{./submod_ngon05.png?href=.%2Fsubmod_ngon05.png&width=400}}
+
+Sind im Kantenbereich weitere problematische Stellen sichtbar kann ein weiteres **Inset** helfen.
+
+{{./submod_ngon06.png?href=.%2Fsubmod_ngon06.png&width=400}}  {{./submod_ngon07.png?href=.%2Fsubmod_ngon07.png&width=400}}
