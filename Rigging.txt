@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-12-20T12:23:24+01:00
+
+====== Rigging ======
+Angelegt Dienstag 20 Dezember 2022
+

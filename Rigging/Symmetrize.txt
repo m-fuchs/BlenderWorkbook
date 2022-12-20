@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-12-20T12:23:30+01:00
+
+====== Symmetrize ======
+
+Beim Erstellen eines Skelettes hat man häufig die gleichen **Bones** auf der linken und rechten Seite der **Armature** - nur in
+gespiegelter Variante. Blender kann diese Spiegelung automatisch durchführen.
+
+**Voraussetzungen:** 
+* Die Objektmitte muss auf der **Z-Achse** liegen. 
+* Es muss eine Namenskonvetion für die **Bones** eingehalten werden:
+	* Jeder **Bone** kann nur einmal existieren und muss mit **L **oder **R** bzw. **Left** oder **Right** gekennzeichnet werden.
+	* Als Trenner zwischen Namen und Kennzeichnung kommen **Space**, **.**, oder **-** zum Einsatz.
+	* Per **F2** kann die Benennung erfolgen.
+
+{{./symetrize01.png?href=.%2Fsymetrize01.png&width=600}}
+
+Nun werden alle **Bones** markiert die gespiegelt werden soll und im Kontextmenü der Punkt **Symmetrize **ausgewählt.
+
+{{./symetrize02.png?href=.%2Fsymetrize02.png&width=600}}
+
+Blender spiegelt nun automatisch die markierten **Bones**.
+
+{{./symetrize03.png?href=.%2Fsymetrize03.png&width=600}}
+
+Die neuen **Bones** wurden analog zu den alten benannt, nur mit der jeweils anderen Kennzeichnung.
+
+{{./symetrize04.png?href=.%2Fsymetrize04.png&width=600}}
