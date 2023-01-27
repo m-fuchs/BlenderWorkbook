@@ -55,11 +55,13 @@ Creation-Date: 2021-01-24T02:33:06+01:00
 
 
 ===== Sculpt Mode =====
-| Kommando    | Beschreibung                              <|
-|:------------|:-------------------------------------------|
-| **CTRL +D** | Aktiviert / Deaktiviert den DynTopo-Modus. |
-| **X**       | **Draw**-Pinsel                            |
-| **G**       | **Grab**-Pinsel                            |
+| Kommando      | Beschreibung                                                            <|
+|:--------------|:-------------------------------------------------------------------------|
+| **CTRL +D**   | Aktiviert / Deaktiviert den DynTopo-Modus.                               |
+| **X**         | **Draw**-Pinsel                                                          |
+| **G**         | **Grab**-Pinsel                                                          |
+| **SHIFT + C** |                                                                          |
+| **ALT + Q**   | Wechselt innerhalb des Sculptmodus zum unter dem Cursor liegendem Objekt |
 
 
 ===== Pose Mode =====
