@@ -12,5 +12,6 @@ Creation-Date: 2022-08-08T12:50:45+02:00
 | **Poly Haven**   | https://polyhaven.com/    | Sammlung von HDRI, Texturen und 3D-Modellen                                   |   |
 | **textures.com** | https://www.textures.com/ | Umfangreiche Texturen-Sammlung, erfordert Account, 15 Credits/Tag sind gratis |   |
 | **Pexels**       | https://www.pexels.com/   | Lizenzfreie Bilder- und Videosammlung                                         |   |
+| **FreePBR**      | https://freepbr.com/      | Mehr als 400 PBR-Texturen die für insgesamt 9$ zu erwerben sind               |   |
 		
 
