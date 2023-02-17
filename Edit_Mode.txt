@@ -10,3 +10,7 @@ gesteuert. Ist sie aktiviert werden diese durch Transformationsbewegungen beeinf
 sich nur ausgewählte Topologieteile. Die Stärke der Beinflussung kann mit Hilfe des Mausrades verändert werden, ein
 Kreis zeigt dabei den Raum der Beeinflussung an.
 Den Typ der Beeinflussung kann man mit **Shift + O** steuern.
+
+===== Scale by Normals =====
+Objekte die bearbeitet wurden, lassen sich häufig nicht gut skalieren. Hier hilft eine Skalierung entlang der Normalen.
+Im Edit-Modus alle Vertices markieren und anschließend mit **Alt + S** diese Skalierungsvariante aktivieren.
