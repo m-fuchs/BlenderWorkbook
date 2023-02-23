@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-02-23T11:13:15+01:00
+
+====== Glätten ======
+
+Falls man - aus welchen Gründen auch immer - einige Flächen glätten möchte, kann man das leicht über die Skalierung durchführen.
+
+{{./glaetten01.png?height=300&href=.%2Fglaetten01.png}}
+
+In den **Edit-Mode** wechseln und alle Flächen markieren.
+
+{{./glaetten02.png?height=300&href=.%2Fglaetten02.png}}
+
+**S** und anschließend **Z** drücken nur entlang der Z-Achse zu skalieren.
+
+{{./glaetten03.png?height=300&href=.%2Fglaetten03.png}}
+
+Durch drücken von **0** die Skalierung auf den Nullwert setzen...
+
+{{./glaetten04.png?height=300&href=.%2Fglaetten04.png}}
+
+...und alle Flächen sind nun in einer Ebene.
+
+{{./glaetten05.png?height=300&href=.%2Fglaetten05.png}}
