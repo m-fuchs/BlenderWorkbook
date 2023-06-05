@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-06-05T12:24:18+02:00
+
+====== Selektieren ======
+
+===== Lasso =====
+Entweder **CTRL** gedrückt halten und mit der **rechten Maustaste** das Lasso malen oder mit **W** den Selektionsmodus umschalten
+und anschließend mit der **linken Maustaste** das Lasso malen.
+
+Das Lasso selektiert nur Objekte, deren **Origin** sich innerhalb des Lassos befindet.
+
