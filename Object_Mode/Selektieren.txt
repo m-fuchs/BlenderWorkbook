@@ -10,3 +10,7 @@ und anschließend mit der **linken Maustaste** das Lasso malen.
 
 Das Lasso selektiert nur Objekte, deren **Origin** sich innerhalb des Lassos befindet.
 
+
+===== Selecktion vergrößern/verkleinern =====
+Wenn man eine Auswahl von Vertices, Edges oder Faces hat, mann man **Strg + NumPad-Plus** oder **Strg + NumPad-Minus** drücken, um den Umfang der Auswahl durch die verbundenen Elemente zu vergrößern oder zu verkleinern.
+
