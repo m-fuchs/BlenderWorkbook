@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-06-13T11:14:31+02:00
+
+====== Selektieren ======
+
+===== Selektion vergrößern/verkleinern =====
+Wenn man eine Auswahl von Vertices, Edges oder Faces hat, mann man **Strg + NumPad-Plus** oder **Strg + NumPad-Minus** drücken, um den Umfang der Auswahl durch die verbundenen Elemente zu vergrößern oder zu verkleinern.
+

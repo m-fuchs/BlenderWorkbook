@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-06-13T11:13:51+02:00
+
+====== Objekt-Ansicht ======
+
+===== Ansicht eines einzelnen Objektes ändern =====
+Unter den **Object Properties** existiert der Bereich **Viewport Display**. Hier kann man im Feld **Display As** die Ansicht des ausgewählten Objektes verändern.
+So können beispielsweise Objekte, die als **Boolean**-Objekt dienen, nur im **Wireframe**-Modus dargestellt werden.
