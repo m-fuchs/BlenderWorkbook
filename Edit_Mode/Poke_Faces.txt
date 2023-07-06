@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-07-06T10:51:25+02:00
+
+====== Poke Faces ======
+
+Wenn man ein NGon füllt, kann man einfach alle Edges markieren und durch Drücken von **F** ein neues Face erzeugen.
+{{./poke_faces_01.png?href=.%2Fpoke_faces_01.png&width=400}}
+
+Nachteil ist dann, dass das entstandene Face auch wieder ein NGon darstellt. Grundsätzlich wäre Dreiecke aber immer besser.
+{{./poke_faces_02.png?href=.%2Fpoke_faces_02.png&width=400}}
+
+Hierfür gibt es eine einfache Lösung. Mit **Strg+F** wird das Face - Menü geöffnet und **Poke Faces** ausgewählt.
+{{./poke_faces_03.png?href=.%2Fpoke_faces_03.png&width=400}}
+
+Anschließend werden passende Faces erzeugt, die Dreiecke sind.
+{{./poke_faces_04.png?href=.%2Fpoke_faces_04.png&width=400}}
