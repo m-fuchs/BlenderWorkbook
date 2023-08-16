@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-08-16T12:15:53+02:00
+
+====== Backface-Culling ======
+
+Standardmäßig zeigt Blender auch die Innenseiten von Objekten an, dies ist aber bei anderen Applikationen - besonders bei Game-Engines -
+nicht der Fall.
+
+{{./backface_culling01.png?href=.%2Fbackface_culling01.png&width=400}}
+
+Im **Options**-Dropdown für das Viewport-Shading, kann man dieses Verhalten (Backface-Culling) aktivieren:
+
+{{./backface_culling02.png?href=.%2Fbackface_culling02.png&width=400}}
+
+Nun erscheinen die Innenseite durchsichtig.
+
+{{./backface_culling03.png?href=.%2Fbackface_culling03.png&width=400}}
