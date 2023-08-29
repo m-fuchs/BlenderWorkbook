@@ -10,7 +10,7 @@ bearbeiteten Objekt hinzugefügt. Die Aktivierung diese Modus ist nicht persiste
 **Sculpt-Mode** muss er wieder aktiviert werden.
 
 ===== Topologie hinzufügen =====
-Im Sculpmodus kann die Topologie leicht verändert werden. Mit **SHIFT + R** wird die Abstandseinstellung der Vertices 
+Im Sculpmodus kann die Topologie leicht verändert werden. Mit **R** wird die Abstandseinstellung der Vertices 
 aktiviert. Anschließend kann man mit Scrollrad die Größe der Topologie einstellen. Das eigentliche Re-Topologieren wird
 anschließend über **STRG + R** durchgeführt.
 
