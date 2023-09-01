@@ -15,3 +15,10 @@ nicht belegt sind.
 ===== Fast View =====
 Auf eine beliebe Node mit gedrücktem **Shift + Ctrl** klicken -> nun wird der oberste Ausgang der Node direkt mit dem
 **Material Output** verbunden. Erneutes klicken in obiger Kombination ändert den Ausgang von oben nach unten.
+
+===== Fast PBR =====
+Pricipled BSDF selektieren -> **Shift + Ctrl + T** drücken. Es erscheint ein Datei-Dialog. Hier wählt man alle Images eines 
+[[:Materialien:PBR Texturen nutzen|PBR-Materials]] aus und klickt auf **Principled Texture Setup** (unten rechts). Es wird nun ein automatisches Setup 
+(vermutlich auf Grund der Dateinamen) durchgeführt und Base Color, Metallic, Roughness, Height sowie Displacement befüllt.
+Die notwendingen Mapping-Nodes werden auch erzeugt und verbunden. Alles ein bisschen Magic, aber man spart sich 
+definitiv Arbeit und kann anschließend alles immer noch nach seinen Wünschen anordnen.

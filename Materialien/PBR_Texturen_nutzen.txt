@@ -32,8 +32,8 @@ Die Height-Map kann verwendet werden, um detaillierte Schatten und Glanzlichter 
 Dazu wird eine **Bump**-Node erstellt und diese mit dem **Normal**-Input der **Principled BSDF**-Node verbunden. Die **Image Texture** (im **Non-Color-Data**-Mode) kommt wiederum an den
 **Height**-Eingang der **Bump**-Node.
 
-(//Info vermutlich für spätere Versionen als 2.79: "If you want to use it for actually displacing the geometry of your object, it should be plugged into the Height input of a Displacement node, //
-//which then should be plugged into the Displacement input of the Material Output node. Make sure the image file’s color space is set to Non-Color Data here as well. Using the Scale slider //
+(//Info vermutlich für spätere Versionen als 2.79: "If you want to use it for actually displacing the geometry of your object, it should be plugged into the Height input of a Displacement node,// 
+//which then should be plugged into the Displacement input of the Material Output node. Make sure the image file’s color space is set to Non-Color Data here as well. Using the Scale slider// 
 //of the Bump node, you can control how much the geometry should be displaced.")//
 
 === Normal ===
@@ -59,3 +59,5 @@ Input-Wert von 0). Die **Ambient Occlusion**-Map ist ebenfalls nicht eingebunden
 
 {{./screenshot_2021-05-06-101724.png}}
 
+===== Schnelleres Setup mit Node Wrangler =====
+Wenn Node-Wrangler installiert ist, kann man das [[Materialien:Node Wrangler#fast-pbr|Setup auch automatisch erzeugen lassen]].
