@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-11-14T21:09:40+01:00
+
+====== Referenzen ======
+
+Beim Modellieren von Objekten ist eine Vorlage als Referenz oft hilfreich. Hier sind einige gesammelt, die häufig benötigt werden.
+
+
+

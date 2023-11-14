@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-11-14T21:10:36+01:00
+
+====== Bäume ======
+
+===== Bonsai =====
+Als Vorlage für Bäume sind Bonsai sehr hilfreich. Sie entsprechen am ehesten der Struktur, wie man sich einen Baum vorstellt.
+
+Beispiel: https://www.pinterest.at/pin/521221356881731543/
