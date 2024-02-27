@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-02-27T11:42:48+01:00
+
+====== Stabilize Stroke ======
+
+Wenn man im Sculpt Mode mit dem Pinsel eine längere Strecke zurücklegen muss, dann wird - besonders bei Nutzung der Maus 
+- die Linie oft sehr unregelmäßig.
+
+{{./stroke01.png?href=.%2Fstroke01.png&width=500}}
+
+Durch Aktivieren der Option **Stabilize Stroke** (Shortcut: **Shift + S**) kann dieses Problem veringert werden.
+
+{{./stroke02.png}}
+
+Die eigentliche Linie endet einige Pixel hinter dem Cursor (dargestellt durch die rote Linie) und wird
+geglättet.
+
+{{./stroke03.png?href=.%2Fstroke03.png&width=500}}
