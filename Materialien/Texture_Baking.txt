@@ -1,0 +1,61 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-04-17T20:46:59+02:00
+
+====== Texture Baking ======
+
+Mit Hilfe von Texture-Baking können augearbeitet Objektstrukturen als Textur erstellt werden.
+
+
+===== Beispiel =====
+Gegeben sind zwei Objekte die einen kleinen Holzklotz darstellen. Links die Lowpoly-Variante (64 Vertices) und rechts
+die Highpoly-Version (75.000 Vertices). Die deutlich schönere Struktur der Highpoly-Version kann nur als Normal-Map 
+auf das Lowpoly-Objekt übertragen werden. Dies verbessert die Renderzeit erheblich.
+
+{{./baking01.png?href=.%2Fbaking01.png&width=600}}
+
+Dazu müssen beide Objekte übereinander liegen.
+
+{{./baking02.png?href=.%2Fbaking02.png&width=600}}
+
+Anschließend erstellt man eine neue Textur (2k, ohne Alpha)...
+
+{{./baking03.png?href=.%2Fbaking03.png&width=600}}
+
+... und verknüpft diese per Normal-Map mit dem Normal-Input des PBR.
+
+{{./baking04.png?href=.%2Fbaking04.png&width=600}}
+
+Anschließend werden beide Objekt selektiert, das Lowpoly-Objekt muss dabei das aktive sein.
+
+{{./baking05.png?href=.%2Fbaking05.png&width=400}}
+
+Texture-Baking ist nur mit der Cycles-Engine möglich, diese muss also aktiviert werden.
+Im Render-Unterpunkt **Bake** kann man nun den **Bake Type** (Normal) auswählen und 
+**Selected to Active** aktivieren.
+
+{{./baking06.png?height=400&href=.%2Fbaking06.png}}
+
+Ein Klick auf **Bake** erzeugt nun die neue Textur. Wenn diese im **UV-Editor** gespeichert wird, kann
+man im Render-Preview bereits die Auswirkungen sehen.
+
+{{./baking07.png?height=600&href=.%2Fbaking07.png}}
+
+In diesem Fall kommt es zu unschönen schwarzen Flecken (in der Textur gelb dargestellt) - die Textur funktioniert also noch nicht richtig.
+Das ist ein Zeichen für ein Highpoly-Mesh, das wahrscheinlich durch das Low-Poly hindurchragt.
+
+Diese kann man durch Anpassen des Parameters **Extrusion** beheben. Ein Wert von **0.1** sollte meist ausreichen.
+
+{{./baking08.png}}
+
+Nach erneutem **Bake** und Speicheren der Textur (anschließend evtl. den Renderpreview kurz in einen anderen Modus schalten), 
+sieht das Ergebnis besser aus:
+
+{{./baking09001.png?height=600&href=.%2Fbaking09001.png}}
+
+Schon hat man ein Lowpoly-Objekt, mit einer Normalmap die gute Highpoly simuliert.
+
+
+===== Problemlösungen =====
+
+Wichtig ist, dass beide Objekte auf **Shade Smooth** eingestellt sind, ansonsten kommt es zu unschönen Artefakten.
