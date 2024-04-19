@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-04-19T13:58:21+02:00
+
+====== Cavity Map ======
+
+Wenn man ein Lowpoly-Objekt mit einer Highpoly-Normal-Map versehen hat, fehlen noch die
+Ambient-Occlusion-Informationen. Diese kann man aber leicht mit einer Cavity-Map nachbilden.
+
+===== Setup =====
+Ausgangspunkt ist eine **Geometry**-Node bzw. deren Port **Pointiness**. Diese wird über eine **Color-Ramp**
+mit der **BaseColor** des Objekts verbunden. Als grobe Richtwerte sind 0,4 für Schwarz und 0,6 für Weiß
+einzustellen.
+
+{{./Bildschirmfoto zu 2024-04-19 14-00-40.png?height=300&href=.%2FBildschirmfoto%20zu%202024-04-19%2014-00-40.png}}
+
+Fertig.
+
+
+===== Baking =====
+Eine Cavity-Map kann [[:Materialien:Normal Map Baking|wie eine Normal-Map auf ein Lowpoly-Objekt gebacken]] werden. Zu beachten ist dabei
+dass der **Bake Type** statt "Normal" auf "Emit" gesetzt wird.
+
+
+===== Einsatz =====
+Eingebunden wird die Cavity-Map mit folgendem Node-Setup:
+
+{{./Bildschirmfoto zu 2024-04-19 14-13-35.png?height=300&href=.%2FBildschirmfoto%20zu%202024-04-19%2014-13-35.png}}
+
+Die **Mix**-Node (Overlay) mischt die Cavity-Informationen in die eigentliche Textur (hier als einfach braune Farbe),
+indem der Mix-Modus **Overlay** ausgewählt wird.
