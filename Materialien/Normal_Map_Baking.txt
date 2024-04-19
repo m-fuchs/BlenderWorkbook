@@ -2,9 +2,9 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
 Creation-Date: 2024-04-17T20:46:59+02:00
 
-====== Texture Baking ======
+====== Normal Map Baking ======
 
-Mit Hilfe von Texture-Baking können augearbeitet Objektstrukturen als Textur erstellt werden.
+Mit Hilfe von Normal-Map-Baking können ausgearbeitet Objektstrukturen als Textur erstellt werden.
 
 
 ===== Beispiel =====
