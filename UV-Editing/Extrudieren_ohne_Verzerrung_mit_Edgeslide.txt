@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-05-01T21:33:53+02:00
+
+====== Extrudieren ohne Verzerrung mit Edgeslide ======
+
+====== Extrudieren ohne Verzerrung mit Edgeslide ======
+
+Gegeben ist ein per UV-Mapping texturiertes Objekt. Dieses soll auf der X-Achse verbreitert werden.
+
+{{./edgeslide01.png?href=.%2Fedgeslide01.png&width=600}}
+
+Ein einfaches Skalieren führt zu einer Verzerrung der Textur.
+
+{{./edgeslide02.png?href=.%2Fedgeslide02.png&width=600}}
+
+Extrudiert man hingegen, dann wird das UV-Mapping nicht einfach erweitert, sondern praktisch die letzte
+Pixelspalte immer wieder koppiert.
+
+{{./edgeslide03.png?href=.%2Fedgeslide03.png&width=600}}
+
+Nach dem Extrudieren drückt man einfach **G**, **G** und **X**. Damit wird ein Edgeslide auf der X-Achse ausgeführt
+und die Textur nahtlos fortgesetzt.
+
+{{./edgeslide04.png?href=.%2Fedgeslide04.png&width=600}}
