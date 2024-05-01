@@ -4,8 +4,6 @@ Creation-Date: 2024-05-01T21:33:53+02:00
 
 ====== Extrudieren ohne Verzerrung mit Edgeslide ======
 
-====== Extrudieren ohne Verzerrung mit Edgeslide ======
-
 Gegeben ist ein per UV-Mapping texturiertes Objekt. Dieses soll auf der X-Achse verbreitert werden.
 
 {{./edgeslide01.png?href=.%2Fedgeslide01.png&width=600}}
