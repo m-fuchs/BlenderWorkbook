@@ -8,3 +8,7 @@ Creation-Date: 2022-08-16T19:20:35+02:00
 
 **[[:Viewport|Viewport-Overlays]]** -> **Statistics** aktivieren
 
+
+===== Schnell Modifiers von mehreren Objekten anwenden =====
+
+Objekte markieren -> rechte Maustaste -> Convert To -> Mesh
