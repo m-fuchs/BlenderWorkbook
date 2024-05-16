@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-05-16T15:23:05+02:00
+
+====== Mesh Filter ======
+
+Wenn das Object beim Sculpten zuviel Kanten und Blöcke aufweist...
+
+{{./mesh_filter01.png?href=.%2Fmesh_filter01.png&width=600}}
+
+...hilft der **Mesh Filter**-Brush.
+
+{{./mesh_filter02.png?height=300&href=.%2Fmesh_filter02.png}}
+
+Brush auswählen, linke Maustaste gedrückt halten und den Cursor nach rechts ziehen. Je weiter rechts 
+er ist (geht über den Bildschirmrand hinaus), umso weicher wird das Objekt. Beim gewünschten Filtergrad 
+einfach die linke Maustaste loslassen.
+
+{{./mesh_filter03.png?href=.%2Fmesh_filter03.png&width=600}}
+
