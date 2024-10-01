@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
 Creation-Date: 2021-01-24T02:33:06+01:00
 
-====== Tastaturkommandos ======
+====== **Tastaturkommandos** ======
 
 	Nützliche Tastaturkommandos.
 
@@ -24,8 +24,11 @@ Creation-Date: 2021-01-24T02:33:06+01:00
 | Kommando    | Beschreibung                                                                                                                                             <|
 |:------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **G**       | Objekt(e) bewegen (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Bewegung auf die entsprechenden Achse beschränkt)                      |
+| **Alt + G** | alle Änderungen der Objektposition wieder rückgängig machen (Objektposition ist dann wie vor dem letzten **Apply**)                                       |
 | **R**       | Objekt(e) rotieren (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Rotation auf die entsprechenden Achse beschränkt)                     |
+| **Alt + R** | alle Änderungen der Objektrotation wieder rückgängig machen (Objektrotation ist dann wie vor dem letzten **Apply**)                                       |
 | **S**       | Objekt(e) vergrößern/verkleinern (mit anschließendem Drücken von **X**, **Y** oder **Z** wird die Größenänderung auf die entsprechenden Achse beschränkt) |
+| **Alt + S** | alle Änderungen der Objektskalierung wieder rückgängig machen (Objektskalierung ist dann wie vor dem letzten **Apply**)                                   |
 | **M**       | Objekt(e) in eine Collection verschieben                                                                                                                  |
 | **A**       | Alle Objekte markieren.                                                                                                                                   |
 | **ALT + A** | Alle Markierungen entfernen.                                                                                                                              |
